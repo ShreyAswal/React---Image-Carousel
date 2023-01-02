@@ -1,0 +1,45 @@
+/* write your carousel css in this file */
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    margin-top: 10em;
+}
+
+.arrows{   
+    margin: 2em;
+    z-index: 4;
+    cursor: pointer;
+    position:unset;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrows:hover{
+    transform: scale(1.5);
+}
+
+.images{
+    position: relative;
+    z-index: 0;
+    max-height: 700px;
+    max-width: 490px;
+}
+
+.title{
+    color: rgb(0, 0, 0);
+    transform: translate(0,-65vh);
+    background-color: rgba(255, 255, 255, 0.621);
+    padding: 0.1em;
+}
+
+.subTitle{
+    color: rgb(0, 0, 0);
+    transform: translate(0,-35vh);
+    background-color: rgba(255, 255, 255, 0.621);
+    padding: 0.2em;
+}
